@@ -1,0 +1,1803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="View placement statistics, package details, department-wise performance and recruitment trends at CareerBridge.">
+
+    <meta name="keywords"
+        content="college placement statistics, placement percentage, campus recruitment, salary packages">
+
+    <meta name="author"
+        content="CareerBridge">
+
+    <title>Placement Statistics | CareerBridge</title>
+
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Bootstrap -->
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <!-- Chart.js -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/chart.js">
+    </script>
+
+
+    <!-- Main CSS -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVBAR
+====================================================== -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top placement-navbar">
+
+    <div class="container">
+
+
+        <!-- Brand -->
+
+        <a class="navbar-brand d-flex align-items-center"
+            href="index.html">
+
+            <div class="brand-logo">
+
+                <i class="fa-solid fa-graduation-cap"></i>
+
+            </div>
+
+
+            <div class="brand-text">
+
+                <span class="college-name">
+                    CareerBridge
+                </span>
+
+                <small>
+                    Placement Cell
+                </small>
+
+            </div>
+
+        </a>
+
+
+        <!-- Mobile Button -->
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <!-- Navigation -->
+
+        <div class="collapse navbar-collapse"
+            id="mainNavbar">
+
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                        href="index.html">
+
+                        Home
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                        href="about.html">
+
+                        About
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link active"
+                        href="placements.html">
+
+                        Placements
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                        href="companies.html">
+
+                        Companies
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                        href="students.html">
+
+                        Students
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                        href="drives.html">
+
+                        Drives
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                        href="training.html">
+
+                        Training
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                        href="achievements.html">
+
+                        Achievements
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link"
+                        href="contact.html">
+
+                        Contact
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+
+                    <a href="drives.html"
+                        class="btn btn-primary nav-cta">
+
+                        View Drives
+
+                        <i class="fa-solid fa-arrow-right ms-2"></i>
+
+                    </a>
+
+                </li>
+
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =====================================================
+     PAGE BANNER
+====================================================== -->
+
+<section class="inner-page-banner">
+
+    <div class="container">
+
+        <div class="inner-banner-content">
+
+            <span class="section-label">
+                PLACEMENT PERFORMANCE
+            </span>
+
+            <h1>
+                Placement Statistics
+            </h1>
+
+            <p>
+                Explore our placement performance, recruitment
+                trends, department-wise results and salary packages.
+            </p>
+
+
+            <div class="breadcrumb-wrapper">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <i class="fa-solid fa-chevron-right"></i>
+
+                <span>
+                    Placements
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     OVERVIEW CARDS
+====================================================== -->
+
+<section class="section-padding placement-overview">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                2025–26 PLACEMENT SEASON
+            </span>
+
+            <h2>
+                Placement
+                <span>Overview</span>
+            </h2>
+
+            <p>
+                Our latest placement cycle reflects strong
+                participation from students and recruiters.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4 mt-3">
+
+
+            <!-- Placement Rate -->
+
+            <div class="col-6 col-lg-3">
+
+                <div class="overview-card">
+
+                    <div class="overview-icon">
+
+                        <i class="fa-solid fa-chart-pie"></i>
+
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Placement Rate
+                        </span>
+
+                        <h3>
+                            95%
+                        </h3>
+
+                        <small>
+                            +1.4% from previous year
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Students -->
+
+            <div class="col-6 col-lg-3">
+
+                <div class="overview-card">
+
+                    <div class="overview-icon">
+
+                        <i class="fa-solid fa-user-graduate"></i>
+
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Students Placed
+                        </span>
+
+                        <h3>
+                            855
+                        </h3>
+
+                        <small>
+                            Out of 900 eligible students
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Highest -->
+
+            <div class="col-6 col-lg-3">
+
+                <div class="overview-card">
+
+                    <div class="overview-icon">
+
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Highest Package
+                        </span>
+
+                        <h3>
+                            ₹24 LPA
+                        </h3>
+
+                        <small>
+                            Technology sector
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Average -->
+
+            <div class="col-6 col-lg-3">
+
+                <div class="overview-card">
+
+                    <div class="overview-icon">
+
+                        <i class="fa-solid fa-money-bill-wave"></i>
+
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Average Package
+                        </span>
+
+                        <h3>
+                            ₹7.8 LPA
+                        </h3>
+
+                        <small>
+                            Across all departments
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="row g-4 mt-1">
+
+
+            <!-- Lowest -->
+
+            <div class="col-6 col-lg-3">
+
+                <div class="overview-card">
+
+                    <div class="overview-icon">
+
+                        <i class="fa-solid fa-arrow-down"></i>
+
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Lowest Package
+                        </span>
+
+                        <h3>
+                            ₹3.2 LPA
+                        </h3>
+
+                        <small>
+                            Minimum annual package
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Companies -->
+
+            <div class="col-6 col-lg-3">
+
+                <div class="overview-card">
+
+                    <div class="overview-icon">
+
+                        <i class="fa-solid fa-building"></i>
+
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Companies
+                        </span>
+
+                        <h3>
+                            120+
+                        </h3>
+
+                        <small>
+                            Participating recruiters
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Fortune -->
+
+            <div class="col-6 col-lg-3">
+
+                <div class="overview-card">
+
+                    <div class="overview-icon">
+
+                        <i class="fa-solid fa-globe"></i>
+
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Fortune 500
+                        </span>
+
+                        <h3>
+                            35+
+                        </h3>
+
+                        <small>
+                            Global organizations
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Offers -->
+
+            <div class="col-6 col-lg-3">
+
+                <div class="overview-card">
+
+                    <div class="overview-icon">
+
+                        <i class="fa-solid fa-file-signature"></i>
+
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Total Offers
+                        </span>
+
+                        <h3>
+                            920+
+                        </h3>
+
+                        <small>
+                            Placement offers generated
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     YEAR-WISE STATISTICS
+====================================================== -->
+
+<section class="section-padding chart-section">
+
+    <div class="container">
+
+
+        <div class="row g-5">
+
+
+            <!-- Chart -->
+
+            <div class="col-lg-7">
+
+                <div class="dashboard-card">
+
+                    <div class="dashboard-header">
+
+                        <div>
+
+                            <span class="section-label">
+                                PERFORMANCE TREND
+                            </span>
+
+                            <h3>
+                                Year-wise Placement Rate
+                            </h3>
+
+                        </div>
+
+
+                        <div class="chart-badge">
+                            2022–2026
+                        </div>
+
+                    </div>
+
+
+                    <div class="chart-container">
+
+                        <canvas id="placementRateChart"></canvas>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Summary -->
+
+            <div class="col-lg-5">
+
+                <div class="dashboard-card">
+
+                    <div class="dashboard-header">
+
+                        <div>
+
+                            <span class="section-label">
+                                YEAR-WISE DATA
+                            </span>
+
+                            <h3>
+                                Placement Growth
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="year-summary">
+
+
+                        <div class="year-row">
+
+                            <div>
+
+                                <strong>
+                                    2022
+                                </strong>
+
+                                <span>
+                                    720 Eligible
+                                </span>
+
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    87.5%
+                                </strong>
+
+                                <span>
+                                    630 Placed
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="year-row">
+
+                            <div>
+
+                                <strong>
+                                    2023
+                                </strong>
+
+                                <span>
+                                    780 Eligible
+                                </span>
+
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    88.5%
+                                </strong>
+
+                                <span>
+                                    690 Placed
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="year-row">
+
+                            <div>
+
+                                <strong>
+                                    2024
+                                </strong>
+
+                                <span>
+                                    820 Eligible
+                                </span>
+
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    91.5%
+                                </strong>
+
+                                <span>
+                                    750 Placed
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="year-row">
+
+                            <div>
+
+                                <strong>
+                                    2025
+                                </strong>
+
+                                <span>
+                                    860 Eligible
+                                </span>
+
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    93.6%
+                                </strong>
+
+                                <span>
+                                    805 Placed
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="year-row current-year-row">
+
+                            <div>
+
+                                <strong>
+                                    2026
+                                </strong>
+
+                                <span>
+                                    900 Eligible
+                                </span>
+
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    95%
+                                </strong>
+
+                                <span>
+                                    855 Placed
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     DEPARTMENT STATISTICS
+====================================================== -->
+
+<section class="section-padding">
+
+    <div class="container">
+
+
+        <div class="section-heading text-center">
+
+            <span class="section-label">
+                DEPARTMENT PERFORMANCE
+            </span>
+
+            <h2>
+                Department-wise
+                <span>Placements</span>
+            </h2>
+
+            <p>
+                Placement performance across major academic departments.
+            </p>
+
+        </div>
+
+
+        <div class="row g-5 mt-4">
+
+
+            <!-- Department Chart -->
+
+            <div class="col-lg-7">
+
+                <div class="dashboard-card">
+
+                    <div class="dashboard-header">
+
+                        <div>
+
+                            <span class="section-label">
+                                PLACEMENT RATE
+                            </span>
+
+                            <h3>
+                                Department Comparison
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chart-container">
+
+                        <canvas id="departmentChart"></canvas>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Department List -->
+
+            <div class="col-lg-5">
+
+                <div class="department-list">
+
+
+                    <div class="department-item">
+
+                        <div class="department-info">
+
+                            <div class="department-icon">
+                                CSE
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Computer Science
+                                </strong>
+
+                                <span>
+                                    210 students placed
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                        <strong class="department-rate">
+                            97%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="department-item">
+
+                        <div class="department-info">
+
+                            <div class="department-icon">
+                                IT
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Information Technology
+                                </strong>
+
+                                <span>
+                                    165 students placed
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                        <strong class="department-rate">
+                            96%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="department-item">
+
+                        <div class="department-info">
+
+                            <div class="department-icon">
+                                ECE
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Electronics & Communication
+                                </strong>
+
+                                <span>
+                                    150 students placed
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                        <strong class="department-rate">
+                            93%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="department-item">
+
+                        <div class="department-info">
+
+                            <div class="department-icon">
+                                EEE
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Electrical Engineering
+                                </strong>
+
+                                <span>
+                                    120 students placed
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                        <strong class="department-rate">
+                            89%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="department-item">
+
+                        <div class="department-info">
+
+                            <div class="department-icon">
+                                MEC
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Mechanical Engineering
+                                </strong>
+
+                                <span>
+                                    110 students placed
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                        <strong class="department-rate">
+                            86%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="department-item">
+
+                        <div class="department-info">
+
+                            <div class="department-icon">
+                                CIV
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Civil Engineering
+                                </strong>
+
+                                <span>
+                                    100 students placed
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                        <strong class="department-rate">
+                            82%
+                        </strong>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PACKAGE STATISTICS
+====================================================== -->
+
+<section class="section-padding package-section">
+
+    <div class="container">
+
+
+        <div class="row g-5 align-items-center">
+
+
+            <!-- Package Chart -->
+
+            <div class="col-lg-6">
+
+                <div class="dashboard-card">
+
+                    <div class="dashboard-header">
+
+                        <div>
+
+                            <span class="section-label">
+                                SALARY ANALYSIS
+                            </span>
+
+                            <h3>
+                                Package Comparison
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chart-container package-chart">
+
+                        <canvas id="packageChart"></canvas>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Package Information -->
+
+            <div class="col-lg-6">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        PACKAGE HIGHLIGHTS
+                    </span>
+
+                    <h2>
+                        Competitive
+                        <span>Career Packages</span>
+                    </h2>
+
+                    <p>
+                        Students received competitive offers from
+                        organizations across technology, consulting,
+                        finance, engineering and other sectors.
+                    </p>
+
+                </div>
+
+
+                <div class="package-highlights">
+
+
+                    <div class="package-item">
+
+                        <div class="package-item-icon">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Highest Package
+                            </span>
+
+                            <strong>
+                                ₹24 LPA
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="package-item">
+
+                        <div class="package-item-icon">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Average Package
+                            </span>
+
+                            <strong>
+                                ₹7.8 LPA
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="package-item">
+
+                        <div class="package-item-icon">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+
+                        <div>
+
+                            <span>
+                                Lowest Package
+                            </span>
+
+                            <strong>
+                                ₹3.2 LPA
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     TOP RECRUITERS
+====================================================== -->
+
+<section class="section-padding">
+
+    <div class="container">
+
+
+        <div class="section-heading text-center">
+
+            <span class="section-label">
+                INDUSTRY PARTNERS
+            </span>
+
+            <h2>
+                Leading
+                <span>Recruiters</span>
+            </h2>
+
+            <p>
+                Organizations that have contributed to our
+                students' career opportunities.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4 mt-4">
+
+
+            <div class="col-6 col-md-4 col-lg-3">
+
+                <div class="recruiter-stat-card">
+
+                    <div class="recruiter-logo">
+                        TCS
+                    </div>
+
+                    <h5>
+                        Tata Consultancy Services
+                    </h5>
+
+                    <span>
+                        125 Students Selected
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-6 col-md-4 col-lg-3">
+
+                <div class="recruiter-stat-card">
+
+                    <div class="recruiter-logo">
+                        ACC
+                    </div>
+
+                    <h5>
+                        Accenture
+                    </h5>
+
+                    <span>
+                        105 Students Selected
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-6 col-md-4 col-lg-3">
+
+                <div class="recruiter-stat-card">
+
+                    <div class="recruiter-logo">
+                        INF
+                    </div>
+
+                    <h5>
+                        Infosys
+                    </h5>
+
+                    <span>
+                        98 Students Selected
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-6 col-md-4 col-lg-3">
+
+                <div class="recruiter-stat-card">
+
+                    <div class="recruiter-logo">
+                        DEL
+                    </div>
+
+                    <h5>
+                        Deloitte
+                    </h5>
+
+                    <span>
+                        72 Students Selected
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-6 col-md-4 col-lg-3">
+
+                <div class="recruiter-stat-card">
+
+                    <div class="recruiter-logo">
+                        IBM
+                    </div>
+
+                    <h5>
+                        IBM
+                    </h5>
+
+                    <span>
+                        65 Students Selected
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-6 col-md-4 col-lg-3">
+
+                <div class="recruiter-stat-card">
+
+                    <div class="recruiter-logo">
+                        WIP
+                    </div>
+
+                    <h5>
+                        Wipro
+                    </h5>
+
+                    <span>
+                        61 Students Selected
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-6 col-md-4 col-lg-3">
+
+                <div class="recruiter-stat-card">
+
+                    <div class="recruiter-logo">
+                        CAP
+                    </div>
+
+                    <h5>
+                        Capgemini
+                    </h5>
+
+                    <span>
+                        58 Students Selected
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-6 col-md-4 col-lg-3">
+
+                <div class="recruiter-stat-card">
+
+                    <div class="recruiter-logo">
+                        MS
+                    </div>
+
+                    <h5>
+                        Microsoft
+                    </h5>
+
+                    <span>
+                        24 Students Selected
+                    </span>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CTA
+====================================================== -->
+
+<section class="cta-section">
+
+    <div class="container">
+
+        <div class="cta-content text-center">
+
+            <span class="section-label">
+                EXPLORE OPPORTUNITIES
+            </span>
+
+            <h2>
+                Find Your Next
+                <span>Career Opportunity</span>
+            </h2>
+
+            <p>
+                Explore upcoming placement drives and discover
+                companies looking for talented students.
+            </p>
+
+            <div class="cta-buttons">
+
+                <a href="drives.html"
+                    class="btn btn-light btn-lg">
+
+                    View Placement Drives
+
+                    <i class="fa-solid fa-arrow-right ms-2"></i>
+
+                </a>
+
+                <a href="companies.html"
+                    class="btn btn-outline-light btn-lg">
+
+                    Explore Companies
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+====================================================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row g-5">
+
+
+            <!-- College -->
+
+            <div class="col-lg-4">
+
+                <a href="index.html"
+                    class="footer-brand">
+
+                    <div class="brand-logo">
+
+                        <i class="fa-solid fa-graduation-cap"></i>
+
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            CareerBridge
+                        </strong>
+
+                        <small>
+                            Placement Cell
+                        </small>
+
+                    </div>
+
+                </a>
+
+
+                <p class="footer-description">
+
+                    Empowering students with career opportunities,
+                    industry exposure and professional development.
+
+                </p>
+
+
+                <div class="social-links">
+
+                    <a href="#"
+                        aria-label="LinkedIn">
+
+                        <i class="fa-brands fa-linkedin-in"></i>
+
+                    </a>
+
+                    <a href="#"
+                        aria-label="Instagram">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                    <a href="#"
+                        aria-label="Facebook">
+
+                        <i class="fa-brands fa-facebook-f"></i>
+
+                    </a>
+
+                    <a href="#"
+                        aria-label="X">
+
+                        <i class="fa-brands fa-x-twitter"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Quick Links -->
+
+            <div class="col-6 col-lg-2">
+
+                <h5>
+                    Quick Links
+                </h5>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="placements.html">
+                            Placements
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="companies.html">
+                            Companies
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="students.html">
+                            Students
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Resources -->
+
+            <div class="col-6 col-lg-2">
+
+                <h5>
+                    Resources
+                </h5>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="drives.html">
+                            Placement Drives
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="training.html">
+                            Training
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="achievements.html">
+                            Achievements
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Privacy Policy
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Contact -->
+
+            <div class="col-lg-4">
+
+                <h5>
+                    Placement Cell
+                </h5>
+
+                <ul class="footer-contact">
+
+                    <li>
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span>
+                            CareerBridge,
+                            Guntur,Andhra Pradesh, India
+                        </span>
+
+                    </li>
+
+                    <li>
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <span>
+                            +91 98765 43210
+                        </span>
+
+                    </li>
+
+                    <li>
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <span>
+                            placement@college.edu
+                        </span>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <hr>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 CareerBridge.
+                All Rights Reserved.
+            </p>
+
+            <div>
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     BACK TO TOP
+====================================================== -->
+
+<button
+    id="backToTop"
+    class="back-to-top"
+    aria-label="Back to top">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+
+
+<!-- Bootstrap JS -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+<!-- Main JS -->
+
+<script src="js/main.js"></script>
+
+
+<!-- Placement Charts -->
+
+<script src="js/placements.js"></script>
+
+
+</body>
+
+</html>
